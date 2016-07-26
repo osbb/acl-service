@@ -1,5 +1,5 @@
-var seneca = require('seneca');
+const seneca = require('seneca');
 
 seneca()
-    .use('./plugins/check')
-    .listen();
+  .use('./plugins/check')
+  .listen();
